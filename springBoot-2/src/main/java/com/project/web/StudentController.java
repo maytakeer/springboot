@@ -1,4 +1,4 @@
-package com.project.springBoot.controller;
+package com.project.web;
 
 import java.util.List;
 
@@ -7,9 +7,10 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-import com.project.springBoot.entity.Student;
-import com.project.springBoot.service.StudentService;
+import com.project.entity.Student;
+import com.project.service.StudentService;
 
 @Controller
 public class StudentController {

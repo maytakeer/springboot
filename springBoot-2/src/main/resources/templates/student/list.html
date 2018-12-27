@@ -25,7 +25,7 @@
 			<tbody>
 				<tr th:each="student : ${students}">
 					<th scope="row" th:text="${student.id}">1</th>
-					<td th:text="${student.userName}">neo</td>
+					<td th:text="${student.studentName}">neo</td>
 					<td th:text="${student.passWord}">Otto</td>
 					<td th:text="${student.age}">6</td>
 					<td><a th:href="@{/toEdit(id=${student.id})}">edit</a></td>

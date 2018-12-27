@@ -1,4 +1,4 @@
-package com.project.springBoot.entity;
+package com.project.entity;
 
 import java.io.Serializable;
 

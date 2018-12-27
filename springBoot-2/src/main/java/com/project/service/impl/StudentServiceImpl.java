@@ -1,13 +1,13 @@
-package com.project.springBoot.service.impl;
+package com.project.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.project.springBoot.entity.Student;
-import com.project.springBoot.repository.StudentRepository;
-import com.project.springBoot.service.StudentService;
+import com.project.entity.Student;
+import com.project.repository.StudentRepository;
+import com.project.service.StudentService;
 
 @Service
 public class StudentServiceImpl implements StudentService{

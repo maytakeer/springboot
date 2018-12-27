@@ -5,6 +5,7 @@ import java.util.Date;
 
 
 
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +14,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 
 
-import com.project.springBoot.entity.User;
-import com.project.springBoot.repository.UserRepository;
+
+import com.project.entity.User;
+import com.project.repository.UserRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
@@ -38,4 +40,5 @@ public class UserRepositoryTests {
         userRepository.delete(userRepository.findByUserName("aa1"));
     	
     }
+    
 }

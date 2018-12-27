@@ -1,8 +1,8 @@
-package com.project.springBoot.service;
+package com.project.service;
 
 import java.util.List;
 
-import com.project.springBoot.entity.Student;
+import com.project.entity.Student;
 
 public interface StudentService {
 	
