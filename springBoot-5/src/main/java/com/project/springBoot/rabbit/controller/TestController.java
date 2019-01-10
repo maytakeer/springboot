@@ -1,4 +1,4 @@
-package com.project.springBoot.controller;
+package com.project.springBoot.rabbit.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
