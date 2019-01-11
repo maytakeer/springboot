@@ -25,4 +25,12 @@ public class ManyTest {
 			neoSender1.send(i);
 		}
 	}
+	
+	@Test
+	public void manyToMant() throws Exception{
+		for (int i = 0; i < 100; i++) {
+			neoSender1.send(i);
+			neoSender2.send(i);
+		}
+	}
 }
